@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #231e24;
+}
+.css-title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.container1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  line-height: 100px;
+  margin-right: 100px;
+
+  font-size: 32px;
+  color: white;
+}
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  margin-right: 200px;
+
+  border-radius: 50%;
+  background: rgb(7, 2, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 2, 92, 1) 77%,
+    rgba(0, 212, 255, 0.6026785714285714) 100%
+  );
+  animation: item1 1s infinite linear;
+}
+@keyframes item1 {
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+.bg {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(5, 8, 156, 1) 100%
+  );
+
+  animation: item2 0.5s infinite ease;
+}
+
+@keyframes item2 {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+.item11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  margin-right: 200px;
+
+  border-radius: 50%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(5, 8, 156, 1) 99%
+  );
+  animation: item11 1s infinite linear;
+}
+@keyframes item11 {
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+.item22 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  margin-right: 200px;
+
+  border-radius: 50%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(5, 8, 156, 1) 99%
+  );
+  animation: item22 1s infinite ease;
+}
+@keyframes item22 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+.item111 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  margin-right: 200px;
+
+  border-radius: 50%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(5, 8, 156, 1) 99%
+  );
+  animation: item111 1s infinite ease-in-out alternate;
+}
+@keyframes item111 {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.item222 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  margin-right: 200px;
+
+  border-radius: 50%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(5, 8, 156, 1) 99%
+  );
+  animation: item222 0.5s ease infinite alternate;
+}
+@keyframes item222 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
